@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>A HTML, Javascript, CSS based read tracker</h1>
+        <div class="add-button">
+            <button class="button">Add New Book</button>
+        </div>
+
+        <div id="booklist" class="list">
+            <h2>Book List</h2>
+        </div>
+
+        <div id="form" class="addBook-form">
+            <span class="close-modal">&times;</span>
+            <h2>Add New Book</h2>
+            <div class="form-content">
+                <div class="input">
+                    <label for="title">Title :</label>
+                    <input id="title" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="author">Author :</label>
+                    <input id="author" type="text" required>
+                </div>
+                <div class="input">
+                    <label for="number">No. of Pages :</label>
+                    <input id="number" type="number" name="" id="" required>
+                </div>
+                <div class="input">
+                    <label for="url">Image Url (Optional):</label>
+                    <input type="text" name="" id="url">
+                </div>
+                <div class="input">
+                    <div class="check-box">
+                        <h4>Have you read?</h4>
+                        <input type="checkbox" name="" id="bookRead">
+                    </div>
+                </div>
+                <button class="sbmt-btn" type="submit">Add Book</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

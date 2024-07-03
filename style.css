@@ -1,0 +1,106 @@
+
+
+
+
+body{
+    margin-top: 0%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    width: 100%;
+    background-color: antiquewhite;
+    margin-top: 0;
+    padding: 3%;
+
+}
+
+.add-button button {
+    background-color: mistyrose;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    -webkit-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+}
+
+.add-button button:hover {
+    background-color: rgba(255, 68, 0, 0.853);
+    transform: scale(1.1);
+    color: white;
+}
+
+.add-button button:active {
+    transform: translateY(2px);
+    color: white;
+}
+
+
+
+.addBook-form{
+    display: none;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: auto;
+    border: none;
+    border-radius: 7%;
+    background-color: antiquewhite;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    
+}
+
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    
+}
+
+input[type="text"], input[type="number"]{
+    border: none;
+    margin: 5%;
+    position: relative;
+    justify-self: center;
+    position: relative;
+    left: 10px;
+}
+
+.check-box{
+    display: grid;
+    grid-template-columns: .5fr auto;
+    align-items: center;
+}
+
+span{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.addBook-form:hover{
+    scale: 1.02;
+
+}
